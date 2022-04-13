@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body  { 
+    background-color: rgb(136, 127, 127);
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* THE RECT FOR THE INPUT AND RESULT */
+
+#piss {
+    margin: 0px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9322f0;
+    height: 730px;
+    width: 800px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+#calc {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c0c0c0;
+    height: 605px;
+    width: 480px;
+    border: 4px solid rgb(59, 95, 109);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #31373d;
+}
+
+/* THE RECT FOR THE BUTTONS */
+
+.calcbutton {
+    background-color: none;
+    padding-left: 20pt;
+    height: 465px;
+    position: relative;
+    border: 0px;
+    color: black;
+    border-radius: 20px;
+}
+
+/* THE RESULT AND DISPLAY FOR NUMBERS AND FUNCTIONS CLICKED */
+
+#dasp {
+    border: 0px;
+    text-align: center;
+    height: 30px;
+    width: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 45px;
+}
+
+/* THE NUMBERS AND SIGNS*/
+
+.put {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 175px;
+    position: relative;
+    border: 0px;
+    color: silver;
+    border-radius: 5px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.but {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 65px;
+    position: relative;
+    border: 0px;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* THE CLEAR RECT */
+
+.clear {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 100px;
+    position: relative;
+    border: 0px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+/* THE EQUAL TO RECT */
+
+.tub {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 280px;
+    position: relative;
+    border: 0px;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+ /* THE GRID FOR THE NUMBERS AND SIGNS */
+.buttongrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 90px 90px 90px;
+  height: 280px;
+  gap: 0.05px;
+}
+
+.one { 
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two { 
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.three { 
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.four { 
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.five { 
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.six { 
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* THE GRID FOR CLEAR AND EQUALS SIGN */
+
+.cleargrid {
+    display: grid;
+    grid-template-columns: 130px 305px;
+    grid-template-rows: 90px;
+    height: 90px;
+    gap: 0.05px;
+}
+
+@media screen and (max-width: 375px) { 
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    body  { 
+        background-color: rgb(136, 127, 127);
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    h3{
+        padding-left: 10pt;
+    }
+    
+    /* THE RECT FOR THE INPUT AND RESULT */
+    
+    #piss {
+        margin: 0px;
+        position: absolute;
+        top: 120%;
+        left: 60%;
+        transform: translate(-35%, -50%);
+        background-color: #9322f0;
+        height: 680px;
+        width: 550px;
+        border: 0px;
+        border-radius: 20px;
+    }
+    
+    #calc {
+        margin: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #c0c0c0;
+        height: 590px;
+        width: 475px;
+        border: 4px solid rgb(59, 95, 109);
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #31373d;
+    }
+    
+    /* THE RECT FOR THE BUTTONS */
+    
+    .calcbutton {
+        background-color: none;
+        padding-left: 20pt;
+        height: 330px;
+        position: relative;
+        border: 0px;
+        color: black;
+        border-radius: 20px;
+    }
+    
+    /* THE RESULT AND DISPLAY FOR NUMBERS AND FUNCTIONS CLICKED */
+    
+    #dasp {
+        border: 0px;
+        text-align: center;
+        height: 30px;
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 45px;
+    }
+    
+    /* THE NUMBERS AND SIGNS*/
+    
+    .put {
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 175px;
+        position: relative;
+        border: 0px;
+        color: silver;
+        border-radius: 5px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    .but {
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 65px;
+        position: relative;
+        border: 0px;
+        color: black;
+        border-radius: 5px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    /* THE CLEAR RECT */
+    
+    .clear {
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 60px;
+        width: 100px;
+        position: relative;
+        border: 0px;
+        color: black;
+        border-radius: 5px;
+        text-align: center;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        font-size: 29px;
+    }
+    
+    /* THE CHANGE THEME RECT */
+    
+    .tub {
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 60px;
+        width: 280px;
+        position: relative;
+        border: 0px;
+        color: black;
+        border-radius: 20px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    
+    
+     /* THE GRID FOR THE NUMBERS AND SIGNS */
+    .buttongrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 90px 90px 90px;
+      height: 100px;
+      gap: 0.05px;
+    }
+    
+    .one { 
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .two { 
+      grid-column: 1;
+      grid-row: 2;
+    }
+    
+    .three { 
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .four { 
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .five { 
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .six { 
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    /* THE GRID FOR CLEAR AND EQUALS SIGN */
+    
+    .cleargrid {
+        display: grid;
+        grid-template-columns: 130px 305px;
+        grid-template-rows: 90px;
+        height: 50px;
+        gap: 0.05px;
+        margin: 0px;
+        position: absolute;
+        top: 85%;
+        left: 40%;
+        transform: translate(-35%, -50%);
+    }
+    
+
+}

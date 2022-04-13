@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href ="https://fonts.googleapis.com/css?famiy=Space+Mono" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="Calc.js"></script>
+  <title>A Standard Calculator</title>
+</head>
+<body>
+    <h1 align="center"><span>A Standard Calculator </span></h1>
+    <h3 align="center">Coded by: <a href="https://github.com/0xgrowth">Oxgrowth</a></h3>
+<hr align="center" width="440px">
+<br>
+<br>
+    <div id="piss"><div id="calc" align="center">
+<br>
+<hr>
+<p id="dasp"></p>
+<br>
+<hr>
+    <div class="calcbutton">
+        <div class="buttongrid">
+            <div class="one">
+<!-- the numbers -->
+        <label for="fnum">First Number:</label><br>
+        <input type="text" id="onep" class="put" onmouseover="changeOnep(this)" onmouseout="nochangeOnep(this)" value="0">
+    </div>
+    <div class="two">
+        <label for="fnum">Second Number:</label><br>
+        <input type="text" id="twop" class="put" onmouseover="changeTwop(this)" onmouseout="nochangeTwop(this)" value="0">
+    </div>
+<div class="four">
+     <!-- the signs and functions -->
+        <input type="button" id="subt" class="but" onmouseover="changeSubt(this)" onmouseout="nochangeSubt(this)" value="-">
+        <input type="button" id="plust" class="but" onmouseover="changePlus(this)" onmouseout="nochangePlus(this)" value="+">
+    </div>
+    <div class="five">
+        <input type="button" id="mult" class="but" onmouseover="changeMult(this)" onmouseout="nochangeMult(this)" value="x">
+        <input type="button" id="perc" class="but" onmouseover="changePerc(this)" onmouseout="nochangePerc(this)" value="%">
+    </div>
+    <div class="six">
+        <input type="button" id="divi" class="but" onmouseover="changeDivi(this)" onmouseout="nochangeDivi(this)" value="÷">
+        <input type="button" id="vidi" class="but" onmouseover="changeVidi(this)" onmouseout="nochangeVidi(this)" value="1/x">
+      </div>
+    </div> <!-- buttongrid -->
+<div class="cleargrid">
+  <input type="button" id="clear" class="clear" onmouseover="changeClear(this)" onmouseout="nochangeClear(this)" value="CLEAR">
+  <input type="button" id="equa" class="tub" onmouseover="changeEqua(this)" onmouseout="nochangeEqua(this)" value="Change Theme">
+    </div> 
+    </div> <!--cleargrid-->       
+    </div> <!-- calcbutton -->
+    </div> <!-- calc  -->
+ </body>
+</html>
